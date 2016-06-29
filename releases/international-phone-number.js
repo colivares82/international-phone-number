@@ -91,7 +91,7 @@
             if (!value) {
               return value;
             }
-            obj = element.intlTelInput("getSelectedCountryData");
+            var obj = element.intlTelInput("getSelectedCountryData");
             obj.value = value.replace(/[^\d]/g, '');
             return obj;
           });
